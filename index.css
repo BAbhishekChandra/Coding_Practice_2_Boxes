@@ -1,0 +1,138 @@
+/* Write your code here. */
+
+* {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #0f172a;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 15px;
+}
+
+.box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.small-box {
+  background-color: #fbbf24;
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  height: 140px;
+  width: 140px;
+  margin: 20px;
+}
+
+.large-box {
+  background-color: #ec4899;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.box-title {
+  font-family: "Bree Serif";
+  font-size: 15px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+
+  .boxes-container {
+    margin: 20px;
+  }
+
+  .box {
+    margin: 30px;
+  }
+
+  .small-box {
+    height: 80px;
+    width: 80px;
+    margin: 25px;
+  }
+
+  .medium-box {
+    height: 160px;
+    width: 160px;
+    margin: 25px;
+  }
+
+  .large-box {
+    height: 220px;
+    width: 220px;
+    margin: 25px;
+  }
+
+  .box-title {
+    font-size: 15px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+
+  .boxes-container {
+    margin: 8px;
+  }
+
+  .box {
+    margin: 10px;
+  }
+
+  .small-box {
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+  }
+
+  .medium-box {
+    height: 60px;
+    width: 60px;
+    margin: 8px;
+  }
+
+  .large-box {
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+  }
+
+  .box-title {
+    font-size: 8px;
+    padding: 7px;
+  }
+}
